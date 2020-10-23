@@ -1,0 +1,43 @@
+h2{
+  font-size: 36px;
+  margin-bottom: 5%;
+}
+p{
+  font-size: 18px;
+}
+
+.container{
+  text-align: center;
+}
+img{
+  height:200px;
+}
+
+main,
+footer{
+  background: lightgrey;
+}
+[class*='col-']{
+  line-height: 24px;
+}
+
+.image{
+  background-color: #428BCA;
+  border-radius: 50%;
+  height: 250px;
+  margin-top: 5%;
+  padding:15px;
+}
+
+@media screen and (max-width: 767px)
+{
+  header{
+    background-color: #F2F2CD
+  }
+  main{
+    background-color: white;
+  }
+  footer{
+    background-color: #F2F2CD
+  }
+}
